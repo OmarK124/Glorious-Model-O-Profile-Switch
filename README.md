@@ -14,5 +14,7 @@ Python code + ahk script for assigning a hotkey to switch between two profiles
     
 which are [win32 user defined messages](https://docs.microsoft.com/en-us/windows/win32/winmsg/wm-user).
 the wparams (421DCB, 400BDE, 4228B7) are the ones the switch the profile (not apply it just change it) are likley different for every installation,
-I had to get them using [Microsoft Spy++](https://learn.microsoft.com/en-us/visualstudio/debugger/introducing-spy-increment?view=vs-2022) and clicking on each profile to get the wparam of the message.
+I had to get them using [Microsoft Spy++](https://learn.microsoft.com/en-us/visualstudio/debugger/introducing-spy-increment?view=vs-2022) and then clicking on each profile to get the wparam of the message.
+
+
     
